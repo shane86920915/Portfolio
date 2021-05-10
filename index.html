@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+   <header>
+
+      <div class="logo">
+
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+         <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+         <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a> </li>
+            <li class="nav__item"><a href="#projects" class="nav__link">My work</a> </li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a> </li>
+            <li class="nav__item"><a href="#about" class="nav__link">About me</a> </li>
+         </ul>
+      </nav>
+      </div>
+   </header>
+
+   <!-- introduction-->
+   <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+         Hi, I am <strong>Shane Wilkinson</strong>
+      </h1>
+      <div class="tealstreak1"></div>
+      <p class="section__subtitle section__subtitle--intro">Full-Stack DEV</p>
+      <img src="assets/mypic.jpg" alt="" class="intro__img">
+   </section>
+
+   <!--my projects-->
+   <section class="my-projects" id="projects">
+      <h2 class="section__title section__title--projects">Projects I have completed</h2>
+      <div class="my_projects">
+
+         <div class="card-deck ">
+            <!-- <a href="www.github.com" target= "_blank"> -->
+
+               <div class="card cardset1 col-md-2 text-white">
+                  <div class="card-body">
+                     <img src="assets/bluebadge (76).png" class="img-fluid" alt="...">
+                     <h5 class="card-title">Blue Badge Project</h5>
+                     <p class="card-text">My blue badge project is basically a game store where you can buy and sell video
+                        games of all generations.</p>
+                        <button><a href="https://www.github.com" target="_blank">Repo</a></button>
+                  </div>
+               </div>
+            <!-- </a> -->
+            <div class="card cardset2 col-md-2 text-white">
+               <div class="card-body">
+                  <img src="assets/eventplanner(77).png" class="img-fluid" alt="...">
+                  <h5 class="card-title">Event Planner</h5>
+                  <p class="card-text">Event planner was designed to make tracking and attending events by haveing
+                     everything all in one app.
+                     You can buy tickets and upcomming events.</p>
+
+               </div>
+
+            </div>
+
+         </div>
+         <a href="https://github.com/shane86920915?tab=repositories" class="btn">MY WORK</a>
+         <!--/ my work-->
+   </section>
+
+
+
+   <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About Me</h2>
+      <p class="section__subtitle section__subtitle--about">Passionate C-Sharp .net Developer Based Out Of Indiana</p>
+      <div class="tealstreak2"></div>
+      <p class="about-container">
+         I am a passionate c# .net developer
+         who values growth and integrity. I've
+         mostly worked in the food industry with
+         the past 6 years in a factory, but felt
+         unsatisfied. Going thrugh Eleven Fifty
+         Academy, Ive developed a strong desire
+         to become a better programmer and problem
+         solver.
+      <p class="about-container"> I plan to return to collage
+         for a bachelor degree in computer science.
+         I also have a desire to earn industry recognized
+         certificates like Salesforce and TensorFlow so I
+         can stay relevant and competitive in todays job marcket.</p>
+      </p>
+      </div>
+
+   </section>
+
+   <footer>
+      <a href="mailto:shane86wilkins@gmail.com" class="foot-link" style="text-decoration: none; color: orangered;">
+         Email Me
+         <i class="fas fa-envelope-square"></i>
+      </a>
+      <a href="https://www.linkedin.com">
+         <!-- My Linkedin -->
+         <i class="fab fa-linkedin" style="color: orangered; font-size: 25px;"></i>
+      </a>
+   </footer>
+
+
+
+
+</body>
+
+</html>
