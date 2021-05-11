@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 :root {
     --ff-primary: 'Roboto Slab', serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -185,6 +183,7 @@ header{
  top: 10px;
  display: block;
  position: relative;
+ 
 }
 .hamburger,
 .hamburger::before,
@@ -192,8 +191,8 @@ header{
     background: var(--clr-accent);
     width: 2em;
     height: 3px;
-    border-radius: 1em;
-    transition: transform 250ms ease-in-out;
+    border-radius: 4em;
+    transition: transform 1ms ease-in-out;
 
 }
 
