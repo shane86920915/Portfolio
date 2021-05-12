@@ -193,8 +193,9 @@ header{
     height: 3px;
     border-radius: 4em;
     transition: transform 1ms ease-in-out;
-
+    
 }
+
 
 .hamburger::before,
 .hamburger::after{
